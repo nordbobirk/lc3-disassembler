@@ -135,6 +135,8 @@ func getOperands(operands string, opcode string) string {
 		return getStrLdrOperands(operands)
 	case "RTI":
 		return getRtiOperands()
+	case "NOT":
+		return getNotOperands(operands)
 	default:
 		log.Fatal("Invalid opcode: ", opcode)
 		return ""
@@ -197,6 +199,11 @@ func getStrLdrOperands(operands string) string {
 
 func getRtiOperands() string {
 	return "" // no operands for opcode RTI
+}
+
+func getNotOperands(operands string) string {
+	// xxxx DR SR 1 11111
+	return getRegister(operands[0:3]) + ", " + getRegister(operands[3:6])
 }
 
 func getRegister(register string) string {
