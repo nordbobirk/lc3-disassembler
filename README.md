@@ -2,7 +2,7 @@
 
 A simple CLI tool that disassembles LC-3 binary instructions.
 
-##### Disclaimer: This tool was made in preparation for an exam at DTU. Inteded for educational purposes only.
+##### Disclaimer: This tool was made in preparation for an exam at DTU. Intended for educational purposes only.
 
 ---
 
