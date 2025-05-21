@@ -1,0 +1,30 @@
+# Binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Build output
+/bin/
+/build/
+/dist/
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.swp
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Dependency caches (optional)
+vendor/
+
+# Go workspace stuff (if you use Go workspaces)
+go.work
+go.work.sum
+
+# data
+data/
