@@ -180,7 +180,7 @@ func getBrOperands(operands string) string {
 
 func getJmpJsrrOperands(operands string) string {
 	// xxxx 000 baseR 000000
-	return getRegister(operands[2:5])
+	return getRegister(operands[3:6])
 }
 
 func getRetOperands() string {
