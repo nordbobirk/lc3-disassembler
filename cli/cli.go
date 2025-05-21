@@ -2,7 +2,7 @@ package cli
 
 import (
 	"fmt"
-	"lc3-decompiler/internal"
+	"lc3-disassembler/internal"
 	"strings"
 )
 
@@ -14,8 +14,8 @@ func Run(args []string) {
 	}
 
 	switch strings.ToLower(args[1]) {
-	case "decompile":
-		internal.Decompile()
+	case "disassemble":
+		internal.Disassemble()
 	case "help":
 		Help()
 	default:

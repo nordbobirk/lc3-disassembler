@@ -1,8 +1,8 @@
 package main
 
 import (
-	"lc3-decompiler/cli"
-	"lc3-decompiler/internal"
+	"lc3-disassembler/cli"
+	"lc3-disassembler/internal"
 	"log"
 	"os"
 )
