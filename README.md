@@ -17,8 +17,8 @@ A simple CLI tool that disassembles LC-3 binary instructions.
 
 1. Make sure you have [Go](https://golang.org/doc/install) installed.
 2. Clone the repository.
-3. Build into an executable `go build -o lc3d.exe`
-4. Run the executable to generate the input file (will be generated as /data/input.txt).
+3. Build using `go build`
+4. Run it to generate the input file (will be generated as /data/input.txt).
 5. Paste binary LC-3 instructions into the input file. One instruction per line.
 6. Run the `disassemble` command. The output will be generated as /data/output.txt.
 
